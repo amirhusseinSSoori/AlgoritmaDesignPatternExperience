@@ -3,6 +3,11 @@ package com.example.algoritmaexperiencekotlin
 /**
 Reverse Integer
 
+Topic : Math
+
+Companies : Adobe , Alibaba , Amazon  , FaceBook
+Google , Microsoft , NetEase ,Lyft, Uber , Airbnb
+
 Given a 32-bit signed integer reverse digits of an integer .
 Example 1:
 Input 123
