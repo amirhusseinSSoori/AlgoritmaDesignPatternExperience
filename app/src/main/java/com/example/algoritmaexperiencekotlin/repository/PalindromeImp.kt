@@ -45,7 +45,7 @@ class PalindromeImp : Palindrome {
             revertedNumber = revertedNumber * 10 + x % 10
             x /= 10
         }
-        return x == revertedNumber
+        return x == revertedNumber || x == revertedNumber / 10
     }
 
 }
