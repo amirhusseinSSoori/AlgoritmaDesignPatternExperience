@@ -34,7 +34,7 @@ Follow up:
 Could you solve it without converting the integer to a string?
 
  */
-class IsPalindromeImp : IsPalindrome {
+class PalindromeImp : Palindrome {
     override fun solution(input: Int): Boolean {
         var x = input
         if (x < 0 || x % 10 == 0 && x != 0) {
@@ -45,12 +45,12 @@ class IsPalindromeImp : IsPalindrome {
             revertedNumber = revertedNumber * 10 + x % 10
             x /= 10
         }
-        return x == revertedNumber || x == revertedNumber / 10
+        return x == revertedNumber
     }
 
 }
 
-interface IsPalindrome {
+interface Palindrome {
     fun solution(input: Int): Boolean
 }
 
