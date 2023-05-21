@@ -1,4 +1,4 @@
-package com.example.algoritmaexperiencekotlin.ui.theme
+package com.example.algoritmaDesignPatternExperience.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

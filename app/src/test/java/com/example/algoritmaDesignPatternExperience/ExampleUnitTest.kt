@@ -1,4 +1,4 @@
-package com.example.algoritmaexperiencekotlin
+package com.example.algoritmaDesignPatternExperience
 
 import org.junit.Test
 

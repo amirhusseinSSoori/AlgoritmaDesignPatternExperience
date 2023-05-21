@@ -1,4 +1,4 @@
-package com.example.algoritmaexperiencekotlin.repository
+package com.example.algoritmaDesignPatternExperience.repository.algoritmas
 
 import kotlin.math.abs
 

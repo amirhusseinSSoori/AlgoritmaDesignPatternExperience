@@ -1,4 +1,4 @@
-package com.example.algoritmaexperiencekotlin.repository
+package com.example.algoritmaDesignPatternExperience.repository.algoritmas
 
 import kotlin.math.pow
 import kotlin.math.sqrt
@@ -44,7 +44,7 @@ import kotlin.math.sqrt
  *  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
  *
 */
-class HeartPatternImp:HeartPattern {
+class HeartPatternImp: HeartPattern {
     override fun solution(size: Int) {
         // nested for loop to print the upper part of Heart
         for (m in 0 until size) {

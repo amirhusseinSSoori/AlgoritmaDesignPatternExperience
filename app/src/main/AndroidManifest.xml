@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.algoritmaexperiencekotlin">
+    package="com.example.algoritmaDesignPatternExperience">
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AlgoritmaExperienceKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.algoritmaDesignPatternExperience.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AlgoritmaExperienceKotlin">
